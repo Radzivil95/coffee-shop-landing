@@ -475,3 +475,114 @@ a {
     line-height: 22px;
     color: var(--dark-color);
 }
+
+.promo {
+    background-color: var(--bg-color);
+}
+
+.promo__inner {
+    padding-top: 123px;
+    padding-bottom: 127px;
+    display: flex;
+    gap: 23px;
+}
+
+.promo__title {
+    position: relative;
+    margin: 32px 0 30px 3px;
+    font-weight: 800;
+    font-size: 124px;
+    line-height: 140px;
+    color: var(--dark-color);
+    max-width: 597px;
+    letter-spacing: 0.01em;
+}
+
+.promo__title::after {
+    position: absolute;
+    content: "";
+    width: 73px;
+    height: 58px;
+    background: url("../images/promo/reward-min.webp") center center/cover no-repeat;
+    right: 98px;
+    bottom: 32px;
+}
+
+.promo__text {
+    max-width: 530px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--text-color);
+    margin-bottom: 59px;
+}
+
+.promo__buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.promo__btn {
+    width: 225px;
+    height: 70px;
+    border-radius: 126px;
+    background-color: var(--dark-color);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--light-color);
+}
+
+.promo__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--dark-color);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--dark-color);
+}
+
+.promo__image-block {
+    position: relative;
+}
+
+.promo__image-block::after {
+    position: absolute;
+    content: "";
+    width: 144px;
+    height: 113px;
+    background: url("../images/promo/reward.webp") center center/cover no-repeat;
+    right: -1px;
+    top: 32px;
+}
+
+.promo__img {
+    width: 700px;
+    height: 712px;
+}
+
+.promo__rating {
+    position: absolute;
+    padding: 20px 24px;
+    width: 280px;
+    height: 140px;
+    background: var(--light-color);
+    border-radius: 24px;
+    bottom: 185px;
+    left: 2px;
+}
+
+.promo__rating-stars {
+    display: flex;
+    align-items: center;
+}
+
+.promo__rating-text {
+    margin-top: 12px;
+    font-size: 19px;
+    line-height: 26px;
+    color: var(--text-color);
+}
