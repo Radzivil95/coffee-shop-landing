@@ -1,0 +1,2 @@
+//=require components/script.js
+

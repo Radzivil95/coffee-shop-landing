@@ -1,0 +1,58 @@
+.header {
+  background-color: var(--bg-color);
+  &__inner {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__cart-btn {
+    position: relative;
+    background-color: var(--light-color);
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: url('../images/basket.svg') center center/cover no-repeat;
+      width: 24px;
+      height: 24px;
+    }
+  }
+  &__order-btn {
+    width: 208px;
+    height: 56px;
+    background-color: var(--dark-color);
+    border-radius: 63px;
+    box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+    color: var(--light-color);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+}
+
+.nav {
+  margin-left: 317px;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &__list-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--dark-color);
+  }
+}
