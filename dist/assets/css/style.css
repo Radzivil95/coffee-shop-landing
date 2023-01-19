@@ -5,7 +5,7 @@
 * 1. Correct the line height in all browsers.
 * 2. Prevent adjustments of font size after orientation changes in iOS.
 */
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;800&display=swap");
 
 html {
     line-height: 1.15;
@@ -384,6 +384,12 @@ a {
     max-width: var(--container-width);
 }
 
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1900px;
+}
+
 .list-reset {
     list-style: none;
     margin: 0;
@@ -495,7 +501,6 @@ a {
     line-height: 140px;
     color: var(--dark-color);
     max-width: 597px;
-    letter-spacing: 0.01em;
 }
 
 .promo__title::after {
@@ -504,7 +509,7 @@ a {
     width: 73px;
     height: 58px;
     background: url("../images/promo/reward-min.webp") center center/cover no-repeat;
-    right: 98px;
+    right: 102px;
     bottom: 32px;
 }
 
@@ -566,7 +571,7 @@ a {
 
 .promo__rating {
     position: absolute;
-    padding: 20px 24px;
+    padding: 20px;
     width: 280px;
     height: 140px;
     background: var(--light-color);
@@ -585,4 +590,103 @@ a {
     font-size: 19px;
     line-height: 26px;
     color: var(--text-color);
+}
+
+.explore {
+    position: relative;
+}
+
+.explore__title {
+    padding-top: 150px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+}
+
+.explore__text {
+    margin: 0 auto;
+    max-width: 604px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--text-color);
+    margin-bottom: 90px;
+}
+
+.explore__card {
+    padding: 40px 30px;
+    width: 393px;
+    height: 540px;
+    background: linear-gradient(152.09deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.explore__card:first-child .explore__card-title {
+    margin-left: 8px;
+}
+
+.explore__card:first-child .explore__card-text {
+    margin-left: 8px;
+}
+
+.explore__card:last-child .explore__card-title {
+    margin-left: 8px;
+}
+
+.explore__card:last-child .explore__card-text {
+    margin-left: 8px;
+}
+
+.explore__card-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    color: var(--dark-color);
+    margin-bottom: 8px;
+}
+
+.explore__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.explore__card-text {
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--text-color);
+    margin-bottom: 60px;
+}
+
+.explore__card-img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+.explore__card-btn {
+    margin: 0 auto;
+    width: 225px;
+    height: 60px;
+    background: var(--dark-color);
+    border-radius: 126px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--light-color);
+}
+
+.explore__decor {
+    position: absolute;
+    top: 52px;
+    left: 0;
 }

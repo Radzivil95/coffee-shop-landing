@@ -24,6 +24,11 @@ a {
     padding: 0 var(--container-offset);
     max-width: var(--container-width);
 }
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1900px;
+}
 .list-reset {
     list-style: none;
     margin: 0;

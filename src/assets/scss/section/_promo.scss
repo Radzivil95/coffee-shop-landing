@@ -14,14 +14,13 @@
     line-height: 140px;
     color: var(--dark-color);
     max-width: 597px;
-    letter-spacing: 0.01em;
     &::after {
       position: absolute;
       content: '';
       width: 73px;
       height: 58px;
       background: url('../images/promo/reward-min.webp') center center/cover no-repeat;
-      right: 98px;
+      right: 102px;
       bottom: 32px;
     }
   }
@@ -76,7 +75,7 @@
   }
   &__rating {
     position: absolute;
-    padding: 20px 24px;
+    padding: 20px;
     width: 280px;
     height: 140px;
     background: var(--light-color);
