@@ -1,0 +1,89 @@
+.shop {
+  padding-top: 141px;
+  padding-bottom: 200px;
+  &__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    color: var(--dark-color);
+    padding-bottom: 24px;
+  }
+  &__text {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--text-color);
+    max-width: 604px;
+    padding-bottom: 100px;
+  }
+  &__cards {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  &__card {
+    padding: 0 30px 25px;
+    padding-left: 5px;
+    width: 393px;
+    height: 550px;
+    background: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: (0px 30px 60px rgba(163, 168, 179, 0.15));
+    border-radius: 24px;
+  }
+  &__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    min-height: 330px;
+  }
+  &__card-img {
+    margin-left: -13px;
+    margin-right: 3px;
+  }
+  &__card-order {
+    margin-top: 120px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--text-color);
+    margin-bottom: 8px;
+  }
+  &__card-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: var(--dark-color);
+  }
+  &__card-text {
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--text-color);
+    padding-bottom: 40px;
+  }
+  &__card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+  }
+  &__card-btn {
+    width: 171px;
+    height: 60px;
+    background-color: var(--dark-color);
+    border-radius: 126px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--light-color);
+  }
+  &__card-price {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    color: var(--dark-color);
+  }
+}
