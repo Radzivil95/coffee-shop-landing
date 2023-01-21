@@ -879,3 +879,126 @@ a {
 .app__img {
     margin-left: -40px;
 }
+
+.reviews {
+    padding-top: 85px;
+}
+
+.reviews__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.reviews__title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    color: var(--dark-color);
+    min-width: 454px;
+    padding-bottom: 50px;
+}
+
+.reviews__total {
+    display: flex;
+}
+
+.reviews__total-inner {
+    margin-top: -7px;
+}
+
+.reviews__total-num {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: var(--dark-color);
+    padding-right: 24px;
+}
+
+.reviews__total-text {
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--text-color);
+}
+
+.reviews__slider {
+    display: flex;
+    gap: 35px;
+    margin-left: -285px;
+}
+
+.reviews__slider-item {
+    width: 468px;
+    height: 648px;
+    background: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 20px 60px rgba(163, 168, 179, 0.15);
+    border-radius: 16px;
+}
+
+.reviews__slider-inner {
+    padding: 35px 40px 32px 40px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.reviews__slider-stars {
+    width: 120px;
+    height: 24px;
+}
+
+.reviews__slider-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--dark-color);
+}
+
+.reviews__slider-text {
+    padding: 0 40px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.reviews__slider-btns {
+    margin-top: 100px;
+    margin-left: -60px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.reviews__btn-left, .reviews__btn-right {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 60px;
+    top: 0px;
+    background: var(--light-color);
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+
+.reviews__btn-left::before {
+    content: "";
+    position: absolute;
+    background: url("../images/customers/arrow-right.svg") center center/cover no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reviews__btn-right::before {
+    content: "";
+    position: absolute;
+    background: url("../images/customers/arrow-left.svg") center center/cover no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
