@@ -1093,3 +1093,118 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.footer__title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--dark-color);
+    padding-bottom: 30px;
+}
+
+.footer__text {
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text-color);
+    max-width: 558px;
+    padding-bottom: 30px;
+}
+
+.footer__link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--dark-color);
+    text-transform: uppercase;
+}
+
+.footer__form-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--dark-color);
+    padding-bottom: 30px;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__form-input {
+    padding: 20px 30px;
+    border: none;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    border-radius: 65px;
+    width: 413px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.footer__form-input::-moz-placeholder {
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.footer__form-input::placeholder {
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.footer__form-btn {
+    width: 173px;
+    height: 70px;
+    border-radius: 126px;
+    background-color: var(--dark-color);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--light-color);
+}
+
+.footer__wrapper {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--dark-color);
+}
+
+.footer__copyright {
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.footer__copyright_dark {
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+.footer__content {
+    display: flex;
+}
+
+.footer__term {
+    padding-right: 12px;
+    border-right: 1px solid var(--text-color);
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.footer__privacy {
+    padding-left: 12px;
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--text-color);
+}
