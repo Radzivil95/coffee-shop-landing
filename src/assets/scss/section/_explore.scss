@@ -80,7 +80,11 @@
     line-height: 30px;
     text-transform: uppercase;
     color: var(--light-color);
-
+    transition: all 0.4s;
+    &:hover {
+      background-color: var(--accent-color);
+      color: var(--dark-color);
+    }
   }
   &__decor {
     position: absolute;

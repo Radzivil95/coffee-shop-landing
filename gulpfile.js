@@ -16,6 +16,7 @@ const include = require('gulp-include');
 const notify = require("gulp-notify");
 const webp = require('gulp-webp');
 const browserSync = require("browser-sync").create();
+const gutil = require('gulp-util');
 
 // paths
 const srcPath = "src/";
@@ -64,7 +65,13 @@ function html() {
 
 function css() {
     return src(path.src.css, {base: srcPath + "assets/scss/"})
-        .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
+        .pipe(plumber(function(error) {
+            // Output an error message
+            gutil.log(gutil.colors.red('Error (' + error.plugin + '): ' + error.message));
+            // emit the end event, to properly end the task
+            this.emit('end');
+            })
+            )
         .pipe(sass())
         .pipe(autoprefixer())
         .pipe(cssbeautify())
