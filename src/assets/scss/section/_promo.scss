@@ -177,8 +177,8 @@
   .promo__title:after {
     width: 55px;
     height: 45px;
-    right: 58px;
-    bottom: 29px;
+    right: 50px;
+    bottom: 15px;
   }
   .promo__title {
     font-size: 55px;
@@ -197,5 +197,11 @@
   }
   .promo__link {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .promo__btn, .promo__link {
+    font-size: 13px;
   }
 }
