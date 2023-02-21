@@ -119,4 +119,52 @@
   .shop__text {
     font-size: 20px;
   }
+  .shop {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .shop__card {
+    width: 300px;
+    height: 460px;
+  }
+  .shop__card-img {
+    height: 220px;
+  }
+  .shop__card-order {
+    margin-top: 60px;
+  }
+  
+  .shop__card-wrapper {
+    min-height: 250px;
+  }
+  .shop__card-price {
+    font-size: 25px;
+  }
+  .shop__card-btn {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .shop__text {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 50px;
+  }
+  .shop__card-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .shop__card-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .shop__title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .shop {
+    padding: 50px 0;
+  }
 }
