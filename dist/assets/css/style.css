@@ -479,6 +479,7 @@ a {
 
 .nav {
     margin-left: 317px;
+    transition: all 0.4s ease;
 }
 
 .nav__list {
@@ -1907,4 +1908,76 @@ a {
     .footer__inner {
         padding-bottom: 40px;
     }
+}
+
+.burger {
+    transition: all 0.3s ease-in-out;
+}
+
+.burger__modal {
+    visibility: hidden;
+    position: absolute;
+    padding: 50px 25px;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease;
+    left: -100%;
+}
+
+.burger__modal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.burger__list-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--dark-color);
+    transition: all 0.4s;
+}
+
+.burger__list-link:hover {
+    color: var(--accent-color);
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    transition: all 0.3s ease-out;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.modal__active {
+    visibility: visible;
+    left: 0;
 }

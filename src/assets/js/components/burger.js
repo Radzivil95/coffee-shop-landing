@@ -8,4 +8,3 @@ burger.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   burgerMenu.classList.remove('modal__active');
 })
-
