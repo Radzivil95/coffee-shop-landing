@@ -475,7 +475,6 @@ a {
 
 .header__order-btn:hover {
     background-color: var(--accent-color);
-    color: var(--dark-color);
 }
 
 .nav {
@@ -612,7 +611,6 @@ a {
 
 .promo__btn:hover {
     background-color: var(--accent-color);
-    color: var(--dark-color);
 }
 
 .promo__link {
@@ -887,7 +885,6 @@ a {
 
 .explore__card-btn:hover {
     background-color: var(--accent-color);
-    color: var(--dark-color);
 }
 
 .explore__decor {
@@ -1013,7 +1010,6 @@ a {
 
 .order__btn:hover {
     background-color: var(--accent-color);
-    color: var(--dark-color);
 }
 
 @media (max-width: 1240px) {
@@ -1178,7 +1174,6 @@ a {
 
 .shop__card-btn:hover {
     background-color: var(--accent-color);
-    color: var(--dark-color);
 }
 
 .shop__card-price {
@@ -1312,7 +1307,6 @@ a {
 
 .app__btn:hover {
     background-color: var(--accent-color);
-    color: var(--dark-color);
 }
 
 .app__img {
@@ -1790,7 +1784,6 @@ a {
 
 .footer__form-btn:hover {
     background-color: var(--accent-color);
-    color: var(--dark-color);
 }
 
 .footer__wrapper {
