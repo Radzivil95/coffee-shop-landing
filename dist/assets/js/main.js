@@ -1,2 +1,2 @@
-console.log(2);
+//=require components/header.js
 

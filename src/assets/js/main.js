@@ -1,2 +1,2 @@
-//=require components/script.js
+//=require components/header.js
 
